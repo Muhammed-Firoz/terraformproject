@@ -20,25 +20,25 @@ For this project, you will write a Packer template and a Terraform template to d
 
 This project contain a packer template, terraform template for creating virtual machines.
 
-###Packer template
+### Packer template
 
 
 this packer template create a server image  with Linux OS (Ubuntu 18.04-LTS). 
 
-**How to use the packer template to create an image **
+**How to use the packer template to create an image**
 
 1.Clone this repository.
 2.Set the working directory to where the template is.
 3.Run the command *packer build server.json* to create the image.
 4.Run the command *az image list* to see the image created.
 
-###Terraform template
+### Terraform template
 
 
 Terraform template is mainly making Virtual Machines and associated resources. in terraform template/module, there is 3 files <main.tf>, <vars.tf>, <solution.plan>.
 <main.tf> is the main script which describes the resources to be created. <vars.tf> file contains the variables that used in <main.tf> script.You can change the variable values by changing default values for each variable in the <vars.tf>. You can also add a deafult value for the variable <num_vms>,which is not specified now. <solution.plan> is the file where terraform plan is saved for creating 2 VMs.
 
-**How to use the terraform template to create an image **
+**How to use the terraform template to create an image**
 
 1.Clone this repository.
 2.Set the working directory to where the template is.
