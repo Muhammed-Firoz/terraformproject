@@ -20,7 +20,7 @@ For this project, you will write a Packer template and a Terraform template to d
 **Your words here**
 This project contain a packer template, terraform template for creating virtual machines.
 
-####Packer template
+####Packer template####
 this packer template create a server image  with Linux OS (Ubuntu 18.04-LTS). 
 ***How to use the packer template to create an image ***
 1.Clone this repository.
