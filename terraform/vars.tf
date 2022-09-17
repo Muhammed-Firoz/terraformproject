@@ -28,5 +28,6 @@ variable "password" {
 
 variable "num_vms" {
   description = "The number of VMs to create."
+  default     = 3
   type        = number
 }
