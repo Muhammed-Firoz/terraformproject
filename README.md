@@ -36,7 +36,7 @@ this packer template create a server image  with Linux OS (Ubuntu 18.04-LTS).
 
 
 Terraform template is mainly making Virtual Machines and associated resources. in terraform template/module, there is 3 files <main.tf>, <vars.tf>, <solution.plan>.
-<main.tf> is the main script which describes the resources to be created. <vars.tf> file contains the variables that used in <main.tf> script.You can change the variable values by changing default values for each variable in the <vars.tf>. You can also add a deafult value for the variable <num_vms>,which is not specified now. <solution.plan> is the file where terraform plan is saved for creating 2 VMs.
+<main.tf> is the main script which describes the resources to be created. <vars.tf> file contains the variables that used in <main.tf> script.You can change the variable values by changing default values for each variable in the <vars.tf>. <solution.plan> is the file where terraform plan is saved for creating 2 VMs.
 
 **How to use the terraform template to create an image**
 
