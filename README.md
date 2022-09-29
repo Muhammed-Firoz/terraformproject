@@ -4,17 +4,17 @@
 For this project, you will write a Packer template and a Terraform template to deploy a customizable, scalable web server in Azure.<br>
 
 ## Getting Started<br>
-1. Clone this repository<br>
+1. Clone this repository.<br>
 
-2. Create your infrastructure as code<br>
+2. Create your infrastructure as code.<br>
 
 3. Update this README to reflect how someone would use your code.<br>
 
 ## Dependencies<br>
-1. Create an [Azure Account](https://portal.azure.com) <br>
-2. Install the [Azure command line interface](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)<br>
-3. Install [Packer](https://www.packer.io/downloads)<br>
-4. Install [Terraform](https://www.terraform.io/downloads.html)<br>
+1. Create an [Azure Account](https://portal.azure.com). <br>
+2. Install the [Azure command line interface](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest).<br>
+3. Install [Packer](https://www.packer.io/downloads).<br>
+4. Install [Terraform](https://www.terraform.io/downloads.html).<br>
 
 ## Instructions<br>
 
@@ -23,7 +23,7 @@ This project contain a packer template, terraform template for creating virtual 
 ### Packer template<br>
 
 
-this packer template create a server image  with Linux OS (Ubuntu 18.04-LTS). <br>
+This packer template create a server image  with Linux OS (Ubuntu 18.04-LTS). <br>
 
 **How to use the packer template to create an image**
 
@@ -35,7 +35,7 @@ this packer template create a server image  with Linux OS (Ubuntu 18.04-LTS). <b
 ### Terraform template<br>
 
 
-Terraform template is mainly making Virtual Machines and associated resources.<br> in terraform template/module, there is 3 files <main.tf>, <vars.tf>, <solution.plan>.<br>
+Terraform template is mainly making Virtual Machines and associated resources.<br> In terraform template/module, there is 3 files <main.tf>, <vars.tf>, <solution.plan>.<br>
 <main.tf> is the main script which describes the resources to be created.<br> <vars.tf> file contains the variables that used in <main.tf> script.<br>You can change the variable values by changing default values for each variable in the <vars.tf>.<br> <solution.plan> is the file where terraform plan is saved for creating 2 VMs.<br>
 
 **How to use the terraform template to create an image**
@@ -51,6 +51,7 @@ Terraform template is mainly making Virtual Machines and associated resources.<b
 
 ### Output<br>
 
-We can check the output of these codes by running following commands<br>
+We can check the output of these codes by running following commands.<br>
+<br>
 *az image list* to see the output produced by packer.<br>
 *terraform show* to see the output produced by terraform.<br>
